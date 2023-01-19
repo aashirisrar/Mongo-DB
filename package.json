@@ -1,0 +1,24 @@
+{
+  "name": "mongo-db",
+  "version": "1.0.0",
+  "description": "A repository made for practicing the mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aashirisrar/Mongo-DB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aashirisrar/Mongo-DB/issues"
+  },
+  "homepage": "https://github.com/aashirisrar/Mongo-DB#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  }
+}
