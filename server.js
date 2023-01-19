@@ -11,7 +11,7 @@ async function main() {
 }
 
 const playlistSchema = new mongoose.Schema({
-  name: String,
+  name: { type: String, unique: [true, "Name already present"] },
   author: String,
   active: Boolean,
 });
